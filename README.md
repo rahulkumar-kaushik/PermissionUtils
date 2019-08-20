@@ -1,4 +1,31 @@
 # PermissionUtils
+[![](https://jitpack.io/v/rkk001/PermissionUtils.svg)](https://jitpack.io/#rkk001/PermissionUtils)
+
+# Install
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+``` 
+allprojects {
+	    repositories {
+            ...
+	    maven { url 'https://jitpack.io' }
+      
+		}
+	}
+```
+
+Step 2. Add the dependency:
+
+```
+dependencies {
+	        implementation 'com.github.rkk001:PermissionUtils:Tag'
+	}
+```
+  
 Android library for run-time permissions. Simply call this utils it will check run-time permissions granted or not.
 
 This is a simple android library for run-time app permission. Instead of writing run-time permission code use this library in your project.
@@ -29,7 +56,7 @@ Pass value of permissions whatever you need:
 14. READ_PHONE_NUMBERS,
 15. CALL_PHONE,
 16. ANSWER_PHONE_CALLS,
-17. ADD_VOICEMAIL,
+17. ADD_VOICEMAIL
 18. USE_SIP,
 19. BODY_SENSORS,
 20. SEND_SMS,
